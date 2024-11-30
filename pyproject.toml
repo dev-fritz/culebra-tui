@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "culebra-tui"
+version = "0.1.0"
+description = ""
+authors = ["Fritz Henrique <fritzhenrique.dev@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.3"
+fastapi = "^0.115.5"
+textual = "^0.88.0"
+uvicorn = "^0.32.1"
+gunicorn = "^23.0.0"
+rich = "^13.9.4"
+textual-dev = "^1.7.0"
+
+
+[tool.poetry.group.dev.dependencies]
+taskipy = "^1.14.1"
+pytest = "^8.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
